@@ -1,0 +1,115 @@
+/**
+Palette: https://coolors.co/palette/040d25-898ae3-1e57b1-2c2f62-d69bdc
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+img {
+    width: 100px;
+}
+
+.hero-container {
+    background-image: url("images/pilar.jpg");
+    background-size: cover;
+    height:343px;
+    padding:0 30px;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+h1{
+    font-size:60px;
+    margin-bottom:15px;
+}
+h2{
+    text-shadow: 0 0 3px #040D25;
+    
+}
+.act-container {
+    display:flex;
+    flex-direction: column;
+}
+.act-container>h3 {
+    margin:50px 0;
+}
+   
+.activities-container {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;  
+}
+.section-title{
+    font-size:30px;
+    color:white;
+}
+.activities-container div img{
+   border-radius:50%;
+}
+
+.service-card {
+    max-width:200px;
+    padding:30px 20px;
+    margin:5px 10px;
+    background:#edf2f4;
+    border-radius:15px;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.service-card p{
+    margin-bottom: 40px;
+}
+.service-card a{
+    text-decoration:none;
+    color:#edf2f4;
+    background:#2C2F62;
+    padding:8px 20px;
+    border-radius:5px;
+    border:none;   
+}
+.service-card a:hover{
+    color:#edf2f4;
+    background:#D69BDC;
+}
+
+.container {
+    display:flex;
+    justify-content: center;  
+    margin: 0 10px;
+}
+.card {
+    display: flex;
+    flex-direction:row-reverse;
+    padding: 13px 23px;
+    width:720px;
+    margin: 50px auto;
+    background:#2C2F62;
+    border-radius:15px;
+    color:#edf2f4;
+}
+.guide-info{
+    padding: 0 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.avatar{
+    width:200px;
+    border-radius:5px;
+}
+    
+  
+.background {
+    background: linear-gradient(#2C2F62,#D69BDC);
+}
